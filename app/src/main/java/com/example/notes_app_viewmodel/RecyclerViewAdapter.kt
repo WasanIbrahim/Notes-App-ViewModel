@@ -9,6 +9,7 @@ import com.example.notes_app_viewmodel.databinding.ItemRowBinding
 
 class RecyclerViewAdapter(private val activity: MainActivity):RecyclerView.Adapter<RecyclerViewAdapter.ItemViewHolder>() {
     var notesList = emptyList<Notes>()
+
     class ItemViewHolder(val binding: ItemRowBinding):RecyclerView.ViewHolder(binding.root)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemViewHolder {

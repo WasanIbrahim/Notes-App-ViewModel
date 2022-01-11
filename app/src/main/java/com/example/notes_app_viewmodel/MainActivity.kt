@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
         rvMain.adapter = rvAdapter
         rvMain.layoutManager = LinearLayoutManager(this)
 
+
         //initializing viewModel
         noteViewModel = ViewModelProvider(this).get(MyViewModel::class.java)
 
